@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset\css\main.css">
+    <link rel="stylesheet" href="asset\css\responsive.css">
+</head> 
+<body >  
+    <header>
+        <div class="container">
+            <div class="nav_bar">
+                <div class="main_logo">
+                    <a href="#">
+                        <img alt="logo"  class="logo_img" src="asset\images\main_logo.jpg">
+                    </a>
+                </div>
+                <div class="nav_element">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a class="anchor"  href="#">Features</a></li>
+                        <li class="nav_item"><a class="anchor" href="#">Solutions</a></li>
+                        <li class="nav_item"><a class="anchor" href="#">Resources</a></li>
+                        <li class="nav_item"><a class="anchor" href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <button class="mobile_btn" onclick="showHiddenItems()"  aria-label="icon    ">
+                    <i class="fa fa-bars" id="icon"  onclick="showHiddenItems()"></i>
+                </button>
+                
+                <div class="dark_mode">
+                    <a href="#"> <img class="dark_btn " src="asset\images\dark-mode.png" ></a>
+                </div>
+
+                <div class="nav_button">
+                    <button class="button_nav">Start 14 Days Free Trial</button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="home" >
+        <div class="container">
+            <div class="home_content">
+                <div class="home_info">
+                        <p class="sub_info home_subinfo">MEET THE ONE AND ONLY COCA</p>                 
+                        <h1 class="head title">The Ultimate Saas</h1>
+                    <div class="home_button">
+                        <button class="button">Start 14 Days Free Trial</button>
+                    </div>                       
+                    <div class="magic_content">
+                        <div class="arrow">
+                            <a href="#" class="anchor"><img alt="play_arrow"  src="asset\images\play_arrow.png"></a> 
+                        </div class="arrow_info">
+                            <a href="#" class="anchor"><p class="info">See how the magic happens</p></a>
+                        </div>
+                </div>
+                <div class="home_img">
+                    <img alt="dashboard_img" class="dashboard_img" src="asset\images\dashboard.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best_Saas">
+        <div class="container">
+            <div class="best_content">
+                <div class="best_title">
+                    <h2 class="best_head">Coca is the best
+                        Saas for any Business</h2>
+                </div>
+                <div class="user1">
+                    <p class="no">
+                        15K+
+                    </p>
+                    <p class="no_info">
+                        15k+ users used Dash for their business today.
+                    </p>
+                </div>
+                <div class="user1">
+                    <p class="no">
+                        25%
+                    </p>
+                    <p class="no_info">
+                        Decrease expense more than 25%/mo
+                    </p>
+                </div>
+                <div class="user2">
+                    <p class="no">
+                        60%
+                    </p>
+                    <p class="no_info">
+                        Business revenue increase significantly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features_content">
+                <div class="feature_image">
+                    <img alt="feature_img" class="feature_img" src="asset\images\feature.png">
+                </div>
+                <div class="feature_details">
+                    <p class="sub_info">OUR FEATURES</p>
+                    <div class="feature_title">
+                        <h2 class="header">Upgrade to pro to
+                            unlock all features.</h2>
+                    </div>
+                    <div class="feature_type_details">
+                        <div class="feature_type">
+                            <div class="type_img">
+                                <img alt="type_img" class="type_img" src="asset\images\feature_analytical.png">
+                            </div>
+                            <div class="type_info">
+                                <h3 class="type_head">
+                                    Analytical
+                                </h3>
+                                <p class="type_des">
+                                    Our analytical tools make it easy to track progress in real-time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature_type">
+                            <div class="type_img">
+                                <img alt="type_img2" class="type_img" src="asset\images\feature_dashboard.png">
+                            </div>
+                            <div class="type_info">
+                                <h3 class="type_head">
+                                    Dashboard
+                                </h3>
+                                <p class="type_des">
+                                    Our dashboard is easy to understand and track your business.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="button feature_button">Get Started Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container"> 
+            <div class="review_title">
+                <h2 class="header">Don’t just take our word.</h2>
+            </div>
+            <div class="topreviews">
+                <div class="cardwrapper">
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per1.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Marvin McKinney
+                                </h4>
+                                <p class="company_name">
+                                    Marv Corp
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment"> I was impressed with the company's user-friendly interface and seamless onboarding process.</p>
+                        </div>
+                            <p class="per_date">Dec 02, 2022</p>
+                    </div>
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per2.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Cameron Williamson
+                                </h4>
+                                <p class="company_name">
+                                    Cam Comp.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment">The product itself is top-notch, providing me with all the features and tools I need to streamline my business operations and improve efficiency.</p>
+                        </div>
+                            <p class="per_date">Dec 20, 2022</p>
+                    </div>
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per3.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Arlene McCoy
+                                </h4>
+                                <p class="company_name">
+                                    Coy Comp.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment"> One of the things I appreciate most about this SaaS company is their commitment to constantly improving and innovating their product.</p>
+                        </div>
+                            <p class="per_date">5 days ago</p>
+                    </div>
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per4.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Theresa Webb
+                                </h4>
+                                <p class="company_name">
+                                    Web Industries
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment">I highly recommend Dash to anyone in need of a reliable and effective software solution for their business.</p>
+                        </div>
+                            <p class="per_date">4 days ago</p>
+                    </div>
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per6.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Fisha Cods
+                                </h4>
+                                <p class="company_name">
+                                    Fish.co
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment">If you haven’t tried out Dash, I would definitely recommend it for business tech.</p>
+                        </div>
+                            <p class="per_date">3 days ago</p>
+                    </div>
+                    <div class="card">
+                        <div class="per_details">
+                            <div class="per_img">
+                                <img alt="person_img" class="person_img" src="asset\images\per1.png" >
+                            </div>
+                            <div class="per_info">
+                                <h4 class="per_name">
+                                    Wilson Rome
+                                </h4>
+                                <p class="company_name">
+                                    The Wilsons
+                                </p>
+                            </div>
+                        </div>
+                        <div class="per_des">
+                            <p class="per_comment">Their user-friendly interface to their top-notch customer support and commitment to innovation.</p>
+                        </div>
+                            <p class="per_date">2 days ago</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="articles">
+        <div class="container">
+            <div class="article_content">
+                <div class="article_info">
+                    <div class="article_title">
+                        <h2 class="header">
+                            Our Latest News and Articles
+                        </h2>
+                    </div>
+                    <p class="article_des">
+                        To succeed in the modern world, companies must embrace the latest tech innovations.
+                    </p>
+                    
+                        <div class="see_all">  
+                            <a class="anchor" href="#">                       
+                                <p class="seeall_art">
+                                    See all articles
+                                </p>
+                            </a>
+                            <a class="anchor" href="#">
+                                <div class="seeall_arrow">
+                                    <img alt="arrow" class="seeall_img_arrow" src="asset\images\arrow-right.png">
+                                </div>
+                            </a>
+                        </div>
+                                    
+                </div>
+                <div class="article_card">
+                    <div class="article_img">
+                        <img alt="article_img" class="image_article" src="asset\images\article1.png">
+                    </div>
+                    <div class="card_detail">
+                        <p class="card_name">Tech life</p>
+                    </div>
+                    <div class="article_details">
+                        <h4 class="article_title">
+                            Future Forward: Embracing the Latest Tech Innovations
+                        </h4>
+                        <p class="article_des">
+                            To succeed in the modern world, companies must embrace the latest tech innovations
+                        </p>
+                    </div>
+                </div>
+                <div class="article_card">
+                    <div class="article_img">
+                        <img alt="article_img"  class="image_article" src="asset\images\article2.png">
+                    </div>
+                    <div class="card_detail">
+                        <p class="card_name">Tech life</p>
+                    </div>
+                    <div class="article_details">
+                        <h4 class="article_title">
+                            Byte-Sized Insights: Breaking Down Complex Tech Topics
+                        </h4>
+                        <p class="article_des">
+                            In the world of technology, there are countless complex and technical topics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join">
+        <div class="container">
+            <div class="joining_contents">
+                <div class="join_title">
+                    <p class="sub_info">NEWSLETTER</p>
+                    <h2 class="header">
+                        Join to get exclusive contents.
+                    </h2>
+                </div>
+                <div class="email_box">
+                    <input autocomplete="off" type="email" name="email" id="email" placeholder="Your email address">
+                    <button class="button">Join Now</button>
+                </div>
+                <div class="join_box">                 
+                    <div class="check">
+                        <div class="check_image">
+                            <img alt="check" src="asset\images\check.png">
+                        </div>
+                        <p class="box_content">
+                            Weekly reports
+                        </p>
+                    </div>
+                    <div class="check">
+                        <div class="check_image">
+                            <img alt="check" src="asset\images\check.png">
+                        </div>
+                        <p class="box_content">
+                            Unlimited free resources
+                        </p>
+                    </div>
+                    <div class="check">
+                        <div class="check_image">
+                            <img alt="check" src="asset\images\check.png">
+                        </div>
+                        <p class="box_content">
+                            Premium contents
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_Allcontents">
+                <div class="foot_content1">
+                    <div class="logo_footer">
+                        <a href="#" class="anchor">
+                            <img alt="footer_img" class="footer_img" src="asset\images\foot_logo.png">
+                        </a>
+                    </div>
+                    <div class="start_content">
+                        <p class="ready_to_start">Ready to get started?</p>
+                        <div class="footer_button">
+                            <button class="foot_button">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider">
+                    <hr>
+                </div>
+                <div class="foot_content2">
+                    <div class="subscribe">
+                        <p class="subscribe_text">Subscribe to our
+                            newsletter
+                        </p>
+                        <div class="foot_email_box">
+                            <input autocomplete="off" type="email" name="email" class="foot_email" placeholder="Email address">
+                            <a href="#" class="anchor"><img alt="foot_submit" class="foot_submit" src="asset\images\foot_Submit.png"></a>    
+                        </div>
+                    </div>
+                    <div class="link_content">
+                        <p class="list_title">Services</p>
+                        <ul class="foot_list">
+                            <li class="list"><a href="#" class="anchor">Email Marketing</a></li>
+                            <li class="list"><a href="#" class="anchor">Campaigns</a></li>
+                            <li class="list"><a href="#" class="anchor">Branding</a></li>
+                            <li class="list"><a href="#" class="anchor">Offline</a></li>
+                        </ul>                       
+                    </div>
+                    <div class="link_content">
+                        <p class="list_title">About</p>
+                        <ul class="foot_list">
+                            <li class="list"><a href="#" class="anchor">Our Story</a></li>
+                            <li class="list"><a href="#" class="anchor">Benefits</a></li>
+                            <li class="list"><a href="#" class="anchor">Team</a></li>
+                            <li class="list"><a href="#" class="anchor">Careers</a></li>
+                        </ul>                       
+                    </div>
+                    <div class="link_content">
+                        <p class="list_title">Help</p>
+                        <ul class="foot_list">
+                            <li class="list"><a href="#" class="anchor">FAQs</a></li>
+                            <li class="list"><a href="#" class="anchor">Contact Us</a></li>
+                        </ul>                       
+                    </div>
+                </div>
+                <div class="foot_content3">
+                    <div class="policies">
+                        <p class="policy"><a href="#" class="anchor">Terms & Conditions</a></p>
+                        <p class="policy"><a href="#" class="anchor">Privacy Policy</a></p>
+                    </div>
+                    <ul class="footer_social">
+                        <li class="footer_social_item">
+                            <a href="#" class="anchor_foot">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="footer_social_item">
+                            <a href="#" class="anchor_foot">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer_social_item">
+                            <a href="#" class="anchor_foot">
+                                <i class="fa fa-instagram" ></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="asset\js\main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,285 @@
+@media only screen and (max-width: 600px){
+    /* .home, .features, .reviews{
+        overflow: hidden;
+    } */
+    header,section,footer{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .container{
+        margin: 0 auto;
+        width: 390px;
+        /* text-align: center; */
+    }
+    .nav_bar{
+        padding:4px 0px 0px 0px;
+        text-align: left;
+    }
+    .nav_item{
+        display: block;
+    }
+    .sub_info{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+    }
+    .logo_img{
+        width: 103px;
+        height: 49px;
+    }
+    .title {
+        padding-bottom: 0px;
+        font-size: 32px;
+    }
+    .button{
+        padding: 16px 24px
+    }
+    .home_info{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .dashboard_img{
+        width: 342px;
+        height: 154px;
+    }
+    .home_subinfo{
+        padding-bottom: 0px;
+    }
+    .best_content{
+        margin: 40px 0px 32px 0px;
+    }
+    .best_title {
+        width: 342px;
+        margin: 0px 0px 32px 0px;
+    }
+    .best_head{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: -0.56px;
+    }
+    .user1{
+        width: 258px;
+        margin-bottom:24px ;
+    }
+    .user2{
+        width: 268px;
+    }
+    
+    .features_content{
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature_title {
+        padding-top: 12px;
+        padding-bottom: 24px;
+    }
+    .feature_details {
+        text-align: left;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 34px;
+    }
+    .feature_type_details {
+        gap: 28px;
+        flex-direction: column;
+    }
+    .button{
+        width: 342px;
+    }
+    .review_title {
+        margin-top: 88px;
+        margin-bottom: 24px;
+    }
+    .cardwrapper{
+        gap: 12px;
+        flex-direction: column;
+    }
+    
+    .topreviews {
+        margin: 0px;
+        gap: 12px;
+    }
+    .topreviews .card{
+        width: 342px;
+    }
+    .article_content{
+        flex-direction: column;
+        margin:48px 0px 0px 0px;
+        gap: 24px;
+    }
+    .article_info .article_title {
+        width: 342px;
+        padding-bottom: 12px;
+    }
+    .see_all {
+        display: flex;
+        gap: 12px;
+        padding-top: 10px;
+    }
+    .image_article {
+        width: 342px;
+        height: 240px;
+    }
+    .join_title {
+        margin-top: 64px;
+        width: 342px;
+    }
+    .email_box{
+        align-items: center;
+    }
+    #email{
+        margin-top: 48px;
+        width: 342px;   
+        height: 60px;
+        padding: 8px 8px 8px 24px;
+    }
+    .join_box{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .foot_content1{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .start_content{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .footer_Allcontents .foot_content2{
+        margin: 83px 0px 0px 0px;
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .footer_Allcontents .foot_content3{
+        flex-direction: column;
+        margin-bottom: 43px;
+    }
+    .foot_content3 .policies {
+        gap: 0px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .footer_social {
+        margin-bottom: 43px;
+    }
+    .title{
+        padding-bottom: 0px;
+    }
+    .magic_content{
+        padding-top: 0px; 
+    }
+    
+    .home_content{
+        gap: 40px;
+    }
+    .button_nav,.link_content,hr
+    {
+        display: none;
+    }
+    .nav_list
+    {
+        display: none;
+        width: 100%;
+        background-color: #434A54;
+    }
+    .show{
+        display: block;
+    }
+    .best_content{
+        flex-direction: column;
+    }
+    .feature_img{
+        width: 342px;
+        height: 310px;
+    }
+
+    .best_Saas::after{
+        width: 236px;
+        height: 236px; 
+        top: 0px;
+    }
+    .join::before{
+        top: 0px;
+        left: 0px;
+    }
+    .join::after{
+        bottom: 0px;
+    }    
+    header::before{
+        top: 0px;
+        left: 0px;
+        width: 261px;
+        height: 261px;
+    }
+    
+    .home::before{
+        top: 0px;
+        left: 0px;
+        width: 327px;
+        height: 327px;
+    }
+    .home::after{
+        right: 0px;
+        bottom: 0px;
+    }
+    .features::after{
+        bottom: 0px;
+        right: 0px;
+    }
+    .features::before{
+        z-index: -1;
+    }
+    .reviews::before{
+        top: 0px;
+        left: 0px;
+    }
+    .reviews::after{
+        bottom: 0px;
+        right: 0px;
+    }
+    .nav_icon{
+        display: flex;
+    }
+    .mobile_btn{
+        display: flex;
+        /* width: 40px; */
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px;
+        margin-left: 252px;
+        background: none;
+        border: none;
+        font-size: 27px;
+    }
+    .no{
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+    }
+    .no_info{
+        color: #434A54;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px; 
+        letter-spacing: -0.32px;
+    }
+    .join{
+        background-image: none;
+        overflow: visible;
+    }
+}
